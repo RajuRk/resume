@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+ body{
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+     font-family: 'Roboto', sans-serif;
+     background-color: hsl(0deg 0% 5%);
+ }
+ .container{
+     background-color: #fff;
+ }
+ h1{
+     font-family: 'Roboto', sans-serif;
+     text-transform: uppercase;
+ }
+ .resume-class{
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+ }
+ .header-section{
+    background-color: hsl(0deg 0% 34%);
+    height: 310px;
+ }
+ .profile-img{
+     text-align: center;
+     padding-top: 30px;
+ }
+ .profile-img img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 7px dotted hsl(44deg 94% 56%);
+ }
+ .white-background{
+    background-color: hsl(0deg 0% 93%);
+    height: 35px;
+ }
+ .name-section{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: -70px;
+ }
+ .name-section h1{
+    color: hsl(100deg 4% 14%);
+    background-color: hsl(43deg 96% 57%);
+    display: inline-block;
+    font-size: 3.5em;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 0;
+ }
+ .contacts{
+    text-align: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #575757;
+ }
+ .two-column,
+ .head-and-date{
+    display: flex;
+ }
+ .column-one,
+ .column-two{
+    width: 50%;
+    padding: 0px 30px;
+    margin: 15px 0px;
+ }
+ .column-one{
+    border-right: 1px solid #575757;
+ }
+ .head-and-date .head{
+     width: 50%;
+ }
+ .head-and-date .date{
+     width: 50%;
+ }
+ .profile,
+ .skill{
+     position: relative;
+ }
+ .profile .icon,
+ .skill .icon{
+    position: absolute;
+    border: 3px dotted hsl(43deg 96% 57%);
+    border-radius: 50%;
+    padding: 1px;
+    top: -3px;
+ }
+ .fa{
+    background-color: hsl(0deg 0% 34%);
+    font-size: 20px;
+    padding: 5px 8px;
+    color: hsl(43deg 96% 57%);
+    border-radius: 50%;
+ }
+ .profile h2,
+ .skill h2{
+    margin-left: 45px;
+    color: hsl(0deg 0% 35%);
+ }
