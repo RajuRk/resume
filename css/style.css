@@ -152,4 +152,17 @@
    #vol{
       width: 95%;
    }
+   p,li{
+      padding: 0px 5px;
+   }
+   .profile .icon, 
+   .skill .icon, 
+   .work-experience .icon{
+      margin: 0 4px;
+   }
+   .profile h2,
+   .skill h2, 
+   .work-experience h2{
+      margin-left: 53px;
+   }
  }
