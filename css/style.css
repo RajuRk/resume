@@ -98,6 +98,13 @@
     color: hsl(43deg 96% 57%);
     border-radius: 50%;
  }
+ .fa-flask,
+ .fa-suitcase{
+   padding: 6px 7px;
+ }
+ .fa-graduation-cap{
+   padding: 7px 5px;
+ }
  .profile h2,
  .skill h2,
  .work-experience h2{
@@ -125,7 +132,7 @@
    height: 6px;
    background-image: linear-gradient(to right, hsl(43deg 96% 57%) , hsl(43.2, 45.5%, 89.2%));
  }
-#vol::-webkit-slider-thumb {
+ #vol::-webkit-slider-thumb {
    -webkit-appearance: none;
    appearance: none;
    width: 17px;
@@ -159,10 +166,5 @@
    .skill .icon, 
    .work-experience .icon{
       margin: 0 4px;
-   }
-   .profile h2,
-   .skill h2, 
-   .work-experience h2{
-      margin-left: 53px;
    }
  }
