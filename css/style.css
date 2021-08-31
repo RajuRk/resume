@@ -155,6 +155,7 @@
    .column-one, .column-two{
       width: 100%;
       padding: 0;
+      margin: 0;
    }
    #vol{
       width: 95%;
@@ -166,5 +167,8 @@
    .skill .icon, 
    .work-experience .icon{
       margin: 0 4px;
+   }
+   .head{
+      margin: 0 6px;
    }
  }
