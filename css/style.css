@@ -125,3 +125,31 @@
    height: 6px;
    background-image: linear-gradient(to right, hsl(43deg 96% 57%) , hsl(43.2, 45.5%, 89.2%));
  }
+#vol::-webkit-slider-thumb {
+   -webkit-appearance: none;
+   appearance: none;
+   width: 17px;
+   height: 17px;
+   background:#fff;
+   border: 1px solid grey;
+   border-radius: 50%;
+   cursor: pointer;
+ }
+ @media only screen and (max-width: 600px){
+   body{
+      margin: 5px 5px;
+   }
+   .name-section h1{
+      font-size: 2.5em;
+   }
+   .two-column{
+      display: initial;
+   }
+   .column-one, .column-two{
+      width: 100%;
+      padding: 0;
+   }
+   #vol{
+      width: 95%;
+   }
+ }
