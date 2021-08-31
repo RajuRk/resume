@@ -171,4 +171,8 @@
    .head{
       margin: 0 6px;
    }
+   .last-para{
+      margin: 0 6px!important;
+      padding: 0 0 5px 0;
+   }
  }
